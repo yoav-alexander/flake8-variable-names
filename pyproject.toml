@@ -1,0 +1,12 @@
+[project]
+name = "flake8-variable-names"
+version = "0.1.0"
+description = "A Flake8 plugin that recommends good variable names."
+keywords = [
+    "flake8",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "flake8>=3,!=3.2",
+]
+entry-points."flake8.extension".GVN = "flake8_variable_names:Plugin"
